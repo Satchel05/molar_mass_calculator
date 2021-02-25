@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #181B1E;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: white;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+p:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 5rem;
+}
+
+#box {
+  font-size: 30px;
+  font-weight: 300;
+  padding: 15px;
+  width: 600px;
+  height: 60px;
+  border-radius: 2px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: #212529;
+  vertical-align: middle;
+  margin: 5px;
+  color: white;
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  vertical-align: center;
+  height: 60px;
+  background-color: #212529;
+  border: none;
+  color: white;
+  border-radius: 2px;
+  width: 100px;
+  text-align: center;
+  font-size: 20px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  vertical-align: middle;
+}
+
+button:hover {
+  background-color: #383e44;
+}
+/*# sourceMappingURL=styles.css.map */
